@@ -1,0 +1,804 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 7500px;
+    background-color:  rgba(236, 236, 236);
+    background-image: url(../images/Untitled\ design\ \(4\).png);
+    background-repeat: no-repeat;
+}
+.header{
+    width: 100%;
+    height: 60px;
+    background-color: rgba(250, 250, 250, 0.7);
+    z-index: 30;
+    position: fixed;
+}
+.headimg{
+    width: 100px;    
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 20px;
+    float: left;
+
+}
+.header li{
+    display: inline-block;
+    font-size: 23px ; 
+    margin: 15px 30px; 
+    color:black;
+    float: right;
+}
+.header li:hover{
+    color: #9dbe6b;
+}
+.header ul{
+    margin-right:80px;
+    list-style: none;
+
+}
+.dd{
+    margin-left:100px;
+    margin-top: 4px;
+    color: #9dbe6b;
+
+}
+.sec1parent{
+    position:relative;
+    width: 75%;
+}
+.rr{
+    position: absolute;
+    z-index: 2;
+    top: 150px;
+    left:70%;
+}
+.sec1cont{
+    position: absolute;
+    z-index: 3;
+    top:100px;
+    left:20px;
+    font-size: 80px;
+    width: 90%;
+    font-family: 'Merriweather', serif;
+}
+.btn{
+    margin-top: 500px;
+    width: 170px;
+    height: 60px;
+    margin-left: 20px;
+    border-radius: 40px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+}
+._1{
+    background-color:black;
+    color:white;
+}
+.gg{
+    color: #9dbe6b;
+}
+.sec1detail{
+    font-size: 25px;
+    width: 290px;
+    margin-top: 70px;
+    margin-left: 20px;
+    line-height: 25px;
+}
+.sec2details{
+    font-size: 40px;
+    margin-left:800px;
+    margin-top: 100px;
+    color: rgba(150, 150, 150);
+}
+.sec2details .sec2sp{
+    font-weight: bold;
+    text-transform: capitalize;
+    color: black
+}
+.sec2parent{
+    overflow: auto;
+    margin-top: 100px;
+    background-image: url(../images/210f14cb0e5344d1680a0e9953cd93ea.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: 200px;
+}
+.sec2container{
+    margin-left: 800px;
+    margin-top: 40px;
+}
+.sec2parent .icon{
+    float: left;
+    font-size: 50px;
+    margin-left: 50px; 
+}
+.k{
+    color: #9dbe6b;
+    margin-right: 5px;
+}
+.p{
+    font-size: 20px;
+    color:rgba(150, 150, 150) ;
+}
+.sec2parent .sec2container button{
+    width: 170px;
+    height: 60px;
+    border-radius: 40px;
+    border: none;
+    background-color : black;
+    color:white ;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.sec3parent{
+    height: 95vh;
+    width: 100%;
+    background-color:#ECECEC;
+    overflow: auto;
+    
+}
+.sec3container{
+    margin-top: 50px;
+    overflow: auto;
+}
+.sec3content{
+    font-size: 40px;
+    color:rgba(150, 150, 150) ;
+    margin-left: 20px;
+}
+
+.sec3content .sec3sp{
+    color: black;
+}
+.sec3content .sec3sp2{
+    color: black;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.sec3img .img1{
+    margin-left: 280px;
+    margin-top: 50px;
+    float: left;
+    height: 350px;
+
+}
+.sec3img .img2{
+    margin-left: 50px;
+    margin-top: 0px;
+    float: left;
+    height: 350px; 
+}
+.sec3img .img3{
+    margin-left: 50px;
+    margin-top: 50px;
+    float: left;
+    height: 350px; 
+}
+.btn_sec3{
+    margin-top: 40px;
+    margin-left: 80px;
+    display: inline;
+    width: 170px;
+    height: 60px;
+    border-radius: 40px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+}
+.gr{
+    margin-left: 5px;
+}
+.sec4parent{
+    width: 100%;
+    height: 50vh;
+    background-image: url(../images/Download\ premium\ psd\ _\ image\ of\ Monstera\ delicosa\ plant\ leaf\ on\ a\ white\ background\ mockup\ by\ Teddy\ about\ monstera\,\ monstera\ white\,\ leaf\,\ plant\,\ and\ plant\ branch\ nature\ floral\ 2230145.jpg);
+    overflow: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.overlay{
+    width: 100%;
+    height: 50vh;
+    background-color: rgba(0, 0, 0, 0.418);
+}
+.offer{
+    font-size: 50px;
+    text-align: center;
+    text-transform: capitalize;
+   
+}
+.linediv{
+    width: 150px;
+    height: 5px;
+    background-color:#9dbe6b ;
+    margin: auto;
+    border-radius: 30px;
+}
+.gem{
+    font-size: 25px;
+    margin-left: 120px;
+}
+.divsec4{
+    float :left;
+    width:300px;
+    height: 230px;
+    background-color:  #ECECEC;
+    margin-left: 130px;
+    text-align: center;
+    border-end-start-radius: 100px;
+    border-top-right-radius: 100px;
+    margin-top: 50px;
+    position: relative;
+}
+.divsec4 h2{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+.divsec4 i{
+    margin-top: 20px;
+    margin-right: 200px;
+}
+.divsec4 a{
+    color: #9dbe6b;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.divsec4::after{
+    position: absolute;
+    content: " ";
+    width: 0%;
+    height: 0%;
+    top: 0;
+    left: 0;
+    background-color:black; 
+    opacity:0 ;
+    transition: 0.5s;
+}
+.divsec4:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    border-end-start-radius: 100px;
+    border-top-right-radius: 100px;
+}
+.divsec4:hover{
+    color:#9dbe6b;
+    transition: 0.5s;
+}
+
+.sec5parent{
+    background-color: rgba(150, 150, 150, 0.541);
+    height: 125vh;
+}
+.sec5div{
+    width: 100%;
+    height: 200px;
+    background-color: #ECECEC;
+    margin-top: 2px;
+    position: relative;
+}
+.sec5div img{
+    visibility: hidden;
+    height: 200px;
+    width: 200px;
+    margin-left: 1000px;
+}
+.sec5div h2{
+    font-size: 70px;
+    color: rgba(150, 150, 150);
+    position: absolute;
+    margin: 60px 100px;
+}
+.sec5div button{
+    position: absolute;
+    margin-top: 80px;
+    width: 50px;
+    height: 30px;
+    border-radius: 50px;
+    font-size: 25px;
+    text-align: center;
+    border: none;
+    margin-left: 20px;
+    background-color: #9dbe6b;
+    color: white;
+}
+.sec5div button i{
+    margin-bottom:1px ;
+    margin-right: 2px;
+}
+.sec5div:hover{
+    background-color: black;
+}
+.sec5div:hover img{
+    visibility: visible;
+}
+.sec5div:hover h2{
+    color: #9dbe6b;
+}
+.sec5div:hover button{
+    background-color: rgba(255, 255, 255, 0.473);
+    color: white;
+}
+.sec6content{
+    margin-top: 100px;
+}
+.sec6content h2{
+    font-size: 70px;
+    text-align: center;
+}
+.sec6bigdiv1{
+    overflow: auto;
+}
+.sec6div{
+    margin-top: 20px;
+   background-size:cover;
+    width: 300px;
+    height: 350px;
+}
+._img1{
+    background-image: url(../images/The\ Importance\ Of\ Biophilic\ Design_\ How\ To\ Make\ Your\ Home\ Greener\ _.jpg);
+ } 
+ ._img2{
+    background-image: url(../images/7556ffb00162f99a64344ec8cebd66d1.jpg);
+} 
+._3{
+    background-image: url(../images/1c2c102d2702f869d4fa9b7c739414a2.jpg);
+}
+._4{
+    background-image: url(../images/d598e64fa7408ff13dca07fb97e32292.jpg);
+}
+._5{
+    background-image: url(../images/d478ce3feac11d2e0897d45d20c180e8.jpg);
+}
+._6{
+    background-image: url(../images/2eeb248b707fea8ef7ef79b075db0434.jpg);
+}
+.sec6overlay{
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    font-size:30px;
+    visibility: hidden;
+    color: #9dbe6b;
+}
+.sec6div:hover .sec6overlay{
+    visibility: visible;
+}
+.div6container{
+    margin-left: 120px;
+}
+.sec6bigdiv1 .sec6div{
+    float: left;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.sec6bigdiv2{
+    overflow: auto;
+}
+.sec6bigdiv2 .sec6div{
+    float: left;
+    margin-top:50px ;
+    margin-left: 60px;
+}
+.decorate{
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-left: 20px;
+    color: rgb(150, 150, 150);
+    margin-top: 30px;
+}
+.inch{
+    font-size: 40px;
+    text-transform: capitalize;
+    color: black;
+}
+.sec6overlay button{
+    margin-top: 200px;
+    width:250px;
+    height: 40px;
+    border-radius: 50px;
+    font-size: 25px;
+    text-align: center;
+    border: none;
+    background-color: black;
+    color: #9dbe6b;
+}
+.sec6overlay a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #ECECEC;
+}
+.sec7parent{
+    overflow: auto;
+} 
+.sec7container{
+    margin-top: 20px;
+    margin-left: 0px;
+}
+.sec7content{
+    float: left;
+    background-color:#ECECEC;
+    width: 650px;
+    height: 600px;
+    margin-left: 20px;
+    font-size: 35px;
+}
+.sec7content h2{
+    text-align: center;
+}
+.us{
+    color:rgb(150, 150, 150);
+}
+.sec7img{
+    width: 650px;
+    height: 600px;
+    float: left;
+    margin-left: 30px;
+    /* background-color:; */
+}
+.choose{
+    width: 350px;
+    height: 100px;
+    margin-top: 10px;
+    background-color: #ECECEC;
+    margin-left: 40px;
+    border-radius: 70px;
+    font-size: 20px;
+}
+.choose2{
+    background-color: #9dbe6b;
+    color: #ECECEC;
+    margin-left: 60px;
+}
+.choose span{
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.c1{
+  margin-left: 20px;
+  margin-top: 30px;
+  font-size: 30px;
+}
+.sec7img{
+  position: relative;
+}
+.emptydiv{
+    width: 300px;
+    height: 500px;
+    z-index: -1;
+    background-color:#D4D0CD;
+    position:absolute;
+    left:250px ;
+}
+.sec7img1{
+  height: 500px;
+  left:100px;
+  top:20px;
+  position: absolute;
+}
+.sec7img ul{
+    margin-left: 280px;
+}
+.sec7img li{
+    float: left;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    border:1px solid black;
+    list-style: none;
+    margin-top: 540px;
+    margin-left:10px ;
+}
+.green1{
+    background-color: #9dbe6b;
+}
+.green2:hover{
+    background-color: #9dbe6b;
+}
+.green3:hover{
+    background-color: #9dbe6b;
+}
+.sec8parent{
+    width: 100%;
+    height: 100vh;
+    margin-top: 80vh;
+    overflow: auto;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position-x: 40px;
+}
+.comment{
+    width: 400px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.445);
+    margin-top: 40px;
+    margin-left: 800px;
+    border-radius: 30px;
+    color: rgb(100, 100, 100);
+}
+.maincomment{
+    color: rgb(120, 120, 120);
+    width: 400px;
+    height:200px;
+    position: absolute;
+    top:40%;
+    left:5%;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    border-radius: 50px; 
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.maincomment h2{
+    margin-top:30px ;
+    font-size: 50px;
+}
+.maincomment input{
+    margin-top:20px ;
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius:30px ;
+}
+.maincomment button{
+    width: 150px;
+    height:30px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 10px;
+    font-size: 15px;
+    background-color: #9dbe6b;
+    color: rgb(120, 120, 120);
+}
+.comment h2{
+    background-color: white;
+    border-radius:10px;
+    margin-top: 10px;
+    font-size: 25px;
+    width: 200;
+    margin-left: 20px;
+    text-align: center;
+    display: inline;
+}
+.comment i{
+    margin-left: 30px;
+    font-size: 20px;
+}
+.comment p{
+    margin:10px 20px ;
+    font-size: 18;
+    background-color: white;
+    border-radius:10px;
+}
+.comment i:hover{
+     color: red;
+}
+.sec9parent{
+    margin-top: 20px;
+    overflow: auto;
+}
+.sec9parent h2{
+    text-align: center;
+    font-size: 50px;
+}
+.sec9container{
+    margin-left:120px
+}
+.team{
+    width:350px;
+    height: 500px;
+    background-color: #D4D0CD;
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius:30px ;
+    position: relative;
+    text-align: center;
+}
+.teamimg1{
+    width: 250px;
+    height: 350px;
+    background-image: url(../images/315b83b63690a086cdc14c6e7ea27af5.jpg);
+    background-size: cover;
+    margin: auto;
+    margin-top: 10px;
+    position: relative;
+
+}
+.teamimg2{
+    width: 250px;
+    height: 350px;
+    background-image: url(../images/8f31d3cd3771b68c4a38a5e7deac9a61.jpg);
+    background-size: cover;
+    margin: auto;
+    margin-top: 10px;
+    position: relative;
+
+}
+.teamimg3{
+    width: 250px;
+    height: 350px;
+    background-image: url(../images/3541ea71d49833e5d8f5cb9647348342.jpg);
+    background-size: cover;
+    margin: auto;
+    margin-top: 10px;
+    position: relative;
+
+}
+.teamoverlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    visibility: hidden;
+    position: absolute;
+   
+}
+.teamoverlay i{
+    font-size:40px ;
+    text-align: center;
+    margin-left: 80%;
+    margin-top:10%;
+    color: rgba(255, 255, 255, 0.603);
+
+}
+.teamoverlay a{
+   text-decoration: none;
+}
+.team::after{
+    position: absolute;
+    content: " ";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0;
+    transition: 0.5s;
+    border-radius:30px ;
+}
+.team:hover::after{
+    opacity: 0.3;
+    width: 100%;
+    height: 100%;
+}
+.team:hover .teamoverlay{
+    visibility: visible;
+}
+.team h2{
+    font-size: 35px;
+    margin-top: 20px;
+}
+.team p{
+    font-size: 25px;
+    margin-top: 0px;
+}
+.team button{
+    width: 100px;
+    height:40px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 5px;
+    font-size:15px ;
+    background-color: #9dbe6b;
+}
+.sec10parent{
+    margin-top: 100px;
+    overflow: auto;
+}
+.sec10parent h2{
+    font-size: 40px;
+    text-align: center;
+}
+.sec10container{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.update{
+    float: left;
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 250px;
+    height: 430px;
+    margin-left: 50px;
+    border-radius: 30px;
+    position: relative;
+}
+.updateimg1{
+    width: 200px;
+    height: 300px;
+    background-image: url(../images/7d0d6374ebf9fbfe63a76a45101d0558.jpg);
+    background-size: cover;
+    margin: auto;
+    margin-top: 10px;
+}
+.update i{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.updateimg2{
+    width: 200px;
+    height: 300px;
+    background-image: url(../images/7f8fb3463acc4e283180db683710982f.jpg);
+    background-size: cover;
+    margin: auto;
+    margin-top: 10px;
+}
+.updateimg3{
+    width: 200px;
+    height: 300px;
+    background-image: url(../images/99d9153253ebf6e9594fc2b67b29aea2.jpg);
+    background-size: cover;
+    margin: auto;
+    margin-top: 10px;
+}
+.updateimg4{
+    width: 200px;
+    height: 300px;
+    background-image: url(../images/30\ Home\ Office\ Ideas\ 2023\ _\ Interior\ Designer\ Tracy\ Svendsen.png);
+    background-size: cover;
+    margin: auto;
+    margin-top: 10px;
+}
+.update h3{
+    margin-top: 20px;
+    text-align: center;
+}
+.update a{
+    text-align: center;
+    text-decoration: none;
+    color: #9dbe6b;
+    margin-left: 10px;
+}
+.update::after{
+    position: absolute;
+    content: " ";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0;
+    transition: 1s;
+    border-radius:30px;
+}
+.update:hover::after{
+    opacity: 0.3;
+    width: 100%;
+    height: 100%;
+}
+.sec11parent{
+    width: 100%;
+    height: 300px;
+    margin-top: 70px;
+    background-color:#D4D0CD;
+    text-align: center;
+
+}
+.sec11parent img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+}
+.sec11parent i{
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.9);
+    margin-top: 20px;
+}
+.sec11parent i:hover{
+    color: #9dbe6b;
+}
