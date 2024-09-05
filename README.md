@@ -33,9 +33,7 @@ Setup and Installation
 To run this project locally on your machine, follow these steps:
 
 Clone the repository:
-      git clone https://github.com/yourusername/lux-interiors.git
-Navigate to the project folder:
-     cd lux-interiors
+      gh repo clone AmeraKhaled/project1
 Usage
     Explore the site structure and codebase to understand how an interior design firm’s website is built.
     The project can be used as a template for any small business or design firm.
